@@ -12,8 +12,6 @@
 
 [不负好时光《Netty IN ACTION》中文版《Netty实战》翻译手记（ATA内网）](https://www.atatech.org/articles/79051?flag_data_from=recommend)
 
-![image](https://cloud.githubusercontent.com/assets/501740/25295296/94d2ef06-2715-11e7-9a2a-916d77014cfc.png)
-
 
 ## 内容提要
 
