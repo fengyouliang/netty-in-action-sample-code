@@ -40,7 +40,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx,
-        Throwable cause) {
+                                Throwable cause) {
         //打印异常栈跟踪
         cause.printStackTrace();
         //关闭该Channel
