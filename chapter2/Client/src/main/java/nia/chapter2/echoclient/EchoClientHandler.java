@@ -23,6 +23,8 @@ public class EchoClientHandler
                 CharsetUtil.UTF_8));
     }
 
+    // 在客户端，当 channelRead0()方法完成时，你已经有了传入消息，并且已经处理完它了。
+    // 当该方法返回时，SimpleChannelInboundHandler 负责释放指向保存该消息的 ByteBuf 的内存引用。
     @Override
     public void channelRead0(ChannelHandlerContext ctx, ByteBuf in) {
         //记录已接收消息的转储
