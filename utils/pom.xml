@@ -9,7 +9,7 @@
     <artifactId>utils</artifactId>
     <name>Common Utilities</name>
     <properties>
-        <jdk.version>14</jdk.version>
+        <jdk.version>1.8</jdk.version>
     </properties>
     <build>
         <plugins>
